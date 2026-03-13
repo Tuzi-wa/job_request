@@ -58,11 +58,9 @@ Use Python 3.10+ on macOS.
 
 ### 2. Ollama
 
-Install and run Ollama locally. Default endpoint:
+Install and run Ollama locally. 
 
-```bash
-http://localhost:11434
-```
+
 
 If Ollama is not already installed, see the official setup instructions:
 
@@ -166,15 +164,7 @@ You can also choose a custom output path:
 python app.py --excel "/path/to/input.xlsx" --output "/path/to/analysis_result.xlsx"
 ```
 
-## Environment Variables
 
-### `OLLAMA_URL`
-
-Override the default Ollama endpoint:
-
-```bash
-export OLLAMA_URL="http://localhost:11434"
-```
 
 ### `OLLAMA_MODEL`
 
